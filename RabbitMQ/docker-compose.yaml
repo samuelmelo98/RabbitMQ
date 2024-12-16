@@ -1,0 +1,17 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"  # Porta padrão do RabbitMQ
+      - "15672:15672"  # Porta do management plugin
+    environment:
+      RABBITMQ_DEFAULT_USER: user  # Usuário padrão
+      RABBITMQ_DEFAULT_PASS: password  # Senha padrão
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq  # Persistir dados
+    restart: always  # Reinicia automaticamente em caso de falha
+
+volumes:
+  rabbitmq_data:  # Volumes persistentes para dados do RabbitMQ
