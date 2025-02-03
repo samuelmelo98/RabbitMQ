@@ -1,0 +1,10 @@
+br\com\string\producer\Producer.class
+br\com\string\producer\ProducerEnviandoJsonNewThread2.class
+br\com\string\producer\ProducerEnviandoJsonNewThread.class
+br\com\string\consumer\Consumer.class
+br\com\string\producer\ProducerEnviandoJsonNewThread2$1.class
+br\com\string\consumer\ConsumerJsonContinuos.class
+br\com\string\model\Pessoa.class
+br\com\string\producer\ProducerEnviandoJson.class
+br\com\string\consumer\ConsumerJson.class
+br\com\string\consumer\ConsumerContinuos.class
